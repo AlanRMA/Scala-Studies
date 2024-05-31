@@ -13,4 +13,3 @@ The project is organized following this structure
 
 - `src`:source code of project.
     - `leetcodeSolutions`: contains leetcode solutions written in scala.
-    - `scalaSandbox`: contains scala misc code.
