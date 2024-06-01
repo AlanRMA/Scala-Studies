@@ -16,15 +16,15 @@ The project is organized following this structure
 - `src`:source code of project.
     - `leetcodeSolutions`: contains leetcode solutions written in scala.
     - `algorithms`: contains common algorithms written in scala.
-        - Bubble Sort (WIP)
-        - Quick Sort (WIP)
-        - Merge Sort (WIP)
+        - Bubble Sort (not started)
+        - Quick Sort (not started)
+        - Merge Sort (not started)
         - Binary Search (WIP)
-        - Breadth-First Search - BFS (WIP)
-        - Depth-First Search - DFS  (WIP)
+        - Breadth-First Search - BFS (not started)
+        - Depth-First Search - DFS  (not started)
     - `dataStructures`: contains common data structure written in scala.
         - LinkedList (WIP)
-        - Stack (WIP)
-        - Queue (WIP)
-        - Heap (WIP)
-        - Tree (WIP)
+        - Stack (not started)
+        - Queue (not started)
+        - Heap (not started)
+        - Tree (not started)
