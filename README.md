@@ -17,12 +17,12 @@ The project is organized following this structure
         - Bubble Sort (not started)
         - Quick Sort (not started)
         - Merge Sort (not started)
-        - Binary Search (WIP)
+        - Binary Search ✅
         - Breadth-First Search - BFS (not started)
         - Depth-First Search - DFS  (not started)
     - `dataStructures`: contains common data structure written in scala.
         - LinkedList ✅
-        - Stack (WIP)
-        - Queue (WIP)
+        - Stack ✅
+        - Queue ✅
         - Heap (WIP)
         - Tree (not started)
