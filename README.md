@@ -22,7 +22,7 @@ The project is organized following this structure
         - Depth-First Search - DFS  (not started)
     - `dataStructures`: contains common data structure written in scala.
         - LinkedList ✅
-        - Stack (not started)
-        - Queue (not started)
-        - Heap (not started)
+        - Stack (WIP)
+        - Queue (WIP)
+        - Heap (WIP)
         - Tree (not started)
