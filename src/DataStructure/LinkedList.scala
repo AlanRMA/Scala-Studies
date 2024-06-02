@@ -32,4 +32,4 @@ case object EmptyList extends LinkedList[Nothing] {
   override def tail: LinkedList[Nothing] = this
 }
 
-case class Node[A](head: A, tail: LinkedList[A]) extends LinkedList[A]
+case class Node[A](head: A, tail: LinkedList[A]) extends LinkedList[
