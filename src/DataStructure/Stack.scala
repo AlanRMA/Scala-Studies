@@ -5,7 +5,7 @@ object App {
     t.push(2)
     t.push("Bear")
     t.push("Dino")
-    println(t.pop())  // Deve imprimir Some(Dino)
+    println(t.pop())  // Deve imprimir Some(Dino) 
     println(t.pop())  // Deve imprimir Some(Bear)
     println(t.pop())  // Deve imprimir Some(2)
   }
