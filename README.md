@@ -25,4 +25,4 @@ The project is organized following this structure
         - Stack ✅
         - Queue ✅
         - Heap (WIP)
-        - Tree (not started)
+        - Tree ✅
