@@ -27,4 +27,4 @@ The project is organized following this structure
         - Heap ✅
         - Tree ✅
     - `functionalProgramming`: contains my experiments with functional programming
-        - ???
+        - mySandbox goes here LOL
