@@ -26,3 +26,5 @@ The project is organized following this structure
         - Queue ✅
         - Heap ✅
         - Tree ✅
+    - `functionalProgramming`: contains my experiments with functional programming
+        - ???
