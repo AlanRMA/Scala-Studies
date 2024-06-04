@@ -14,9 +14,9 @@ The project is organized following this structure
 
 - `src`:source code of project.
     - `algorithms`: contains common algorithms written in scala.
-        - Bubble Sort (not started)
-        - Quick Sort (WIP)
-        - Merge Sort (not started)
+        - Bubble Sort (WIP)
+        - Quick Sort ✅
+        - Merge Sort (WIP)
         - Binary Search ✅
         - Breadth-First Search - BFS (not started)
         - Depth-First Search - DFS  (not started)
