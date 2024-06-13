@@ -1,27 +1,40 @@
-object Script {
-  def getDiv(n: Int): Array[Int] = {
-    def helper(div: Int, arr: Array[Int]): Array[Int] = {
-      if (div == 1) {
-        arr :+ 1
-      } else {
-        if (n % div == 0) {
-          helper(div - 1, arr :+ div)
-        } else {
-          helper(div - 1, arr)
-        }
-      }
-    }
-    helper(n, Array())
-  }
+def get_divisors(n: int, condition=lambda x: True):
+  """
+  Finds all positive divisors of a number 'n' that satisfy a given condition.
 
-  def main(args: Array[String]): Unit = {
-    val a1 = 12 // 2 * 2 * 3
-    val a2 = 56 // 2 * 2 * 2 * 7
-    val a3 = 100 // 2 * 5 * 5
-    val a4 = 11 // 11
-    println(getDiv(a1).mkString(", ")) // 1, 2, 3, 4, 6, 12
-    println(getDiv(a2).mkString(", ")) // 1, 2, 4, 7, 8, 14, 28, 56
-    println(getDiv(a3).mkString(", ")) // 1, 2, 4, 5, 10, 20, 25, 50, 100
-    println(getDiv(a4).mkString(", ")) // 1, 11
-  }
-}
+  Args:
+      n: The integer to find divisors for.
+      condition: An optional function that takes an integer divisor and returns True
+                 if the divisor should be included in the result, False otherwise.
+
+  Returns:
+      A list of all positive divisors of 'n' that satisfy the condition.
+  """
+
+  def helper(div: int, arr: list[int]) -> list[int]:
+    if div == 1:
+      return arr + [1]
+    else:
+      if n % div == 0 and condition(div):
+        return helper(div - 1, arr + [div])
+      else:
+        return helper(div - 1, arr)
+
+  return helper(n, [])
+
+def main():
+  # Sample data
+  a1 = 12  # 2 * 2 * 3
+  a2 = 56  # 2 * 2 * 2 * 7
+  a3 = 100  # 2 * 5 * 5
+
+  # Filter to get only even divisors
+  def is_even(x):
+    return x % 2 == 0
+
+  print(f"Even divisors of {a1}: {get_divisors(a1, is_even).mkString(', ')}")
+  print(f"Even divisors of {a2}: {get_divisors(a2, is_even).mkString(', ')}")
+  print(f"Even divisors of {a3}: {get_divisors(a3, is_even).mkString(', ')}")
+
+if __name__ == "__main__":
+  main()
