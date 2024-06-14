@@ -7,6 +7,7 @@ object App {
     n = n.enqueue(Node(3))
     println(n.size)
 
+    println(n.isEmpty)
   }
 
   class Node (x: Int) {
