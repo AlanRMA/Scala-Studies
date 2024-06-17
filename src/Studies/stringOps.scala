@@ -16,7 +16,7 @@ object Script {
   }
   def fixCap(str: String): Any = {
         val newstr = str.toLowerCase()
-        return newstr.split(" ").map(_.capitalize).mkString(" ")
+        return newstr.split(" ").map(word=>word.capitalize).mkString(" ")
    
   }
 
